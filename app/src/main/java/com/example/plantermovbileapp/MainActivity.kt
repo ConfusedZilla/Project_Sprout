@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val goToSecondAct = findViewById<Button>(R.id.goToSecondAct);
         goToSecondAct.setOnClickListener {
             Intent(this, SecondActivity::class.java).also {
-                startActivity(it)
+
             }
         }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/planter1"
+    android:title="First Planter"
+    android:icon="@drawable/redplanter"
+    app:showAsAction="always"/>
+    <item
+        android:id="@+id/planter2"
+        android:title="Second Planter"
+        android:icon="@drawable/greenplanter"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/planter3"
+        android:title="Third Planter"
+        android:icon="@drawable/blueplanter"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project Sprout</string>
+    <string-array name="timeInterval">
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

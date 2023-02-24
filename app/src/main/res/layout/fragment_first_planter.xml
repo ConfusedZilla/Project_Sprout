@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/turbidResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="TL1"
+        app:layout_constraintStart_toEndOf="@+id/turbidText1"
+        app:layout_constraintTop_toTopOf="@+id/turbidText1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        android:text="First Planter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tempText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Temperature:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/soilMoistText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Soil Moisture: "
+        app:layout_constraintStart_toStartOf="@+id/tempText1"
+        app:layout_constraintTop_toBottomOf="@+id/tempText1" />
+
+    <TextView
+        android:id="@+id/phText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="PH Level: "
+        app:layout_constraintStart_toStartOf="@+id/turbidText1"
+        app:layout_constraintTop_toBottomOf="@+id/turbidText1" />
+
+    <TextView
+        android:id="@+id/turbidText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Turbidity Level: "
+        app:layout_constraintStart_toStartOf="@+id/containerLevelText1"
+        app:layout_constraintTop_toBottomOf="@+id/containerLevelText1" />
+
+    <TextView
+        android:id="@+id/containerLevelText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="60dp"
+        android:text="Container Level: "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/savePlanter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="Save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/timeToSm1"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/timeToSm1" />
+
+    <TextView
+        android:id="@+id/tempResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="T1"
+        app:layout_constraintBottom_toBottomOf="@+id/tempText1"
+        app:layout_constraintStart_toEndOf="@+id/tempText1"
+        app:layout_constraintTop_toTopOf="@+id/tempText1" />
+
+    <TextView
+        android:id="@+id/soilMoistResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="SM1"
+        app:layout_constraintBottom_toBottomOf="@+id/soilMoistText1"
+        app:layout_constraintStart_toEndOf="@+id/soilMoistText1"
+        app:layout_constraintTop_toTopOf="@+id/soilMoistText1" />
+
+    <TextView
+        android:id="@+id/phResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="PH1"
+        app:layout_constraintBottom_toBottomOf="@+id/phText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/phText1"
+        app:layout_constraintTop_toTopOf="@+id/phText1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/containerLevelResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="20dp"
+        android:text="CL1"
+        app:layout_constraintBottom_toBottomOf="@+id/containerLevelText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/containerLevelText1"
+        app:layout_constraintTop_toTopOf="@+id/containerLevelText1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/inputTime1"
+        android:layout_width="73dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:text="Time1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humidText1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/showTime1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:text="Time"
+        app:layout_constraintBottom_toBottomOf="@+id/inputTime1"
+        app:layout_constraintStart_toEndOf="@+id/inputTime1"
+        app:layout_constraintTop_toTopOf="@+id/inputTime1" />
+
+    <Button
+        android:id="@+id/acceptSoilMoist1"
+        android:layout_width="87dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="60dp"
+        android:text="Accept"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phText1" />
+
+    <EditText
+        android:id="@+id/inputSoilMoist1"
+        android:layout_width="99dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SM Value"
+        app:layout_constraintEnd_toEndOf="@+id/acceptSoilMoist1"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/acceptSoilMoist1"
+        app:layout_constraintTop_toBottomOf="@+id/acceptSoilMoist1" />
+
+    <TextView
+        android:id="@+id/humidText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Humidity: "
+        app:layout_constraintStart_toStartOf="@+id/soilMoistText1"
+        app:layout_constraintTop_toBottomOf="@+id/soilMoistText1" />
+
+    <TextView
+        android:id="@+id/humidResult1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="H1"
+        app:layout_constraintBottom_toBottomOf="@+id/humidText1"
+        app:layout_constraintStart_toEndOf="@+id/humidText1"
+        app:layout_constraintTop_toTopOf="@+id/humidText1" />
+
+    <Switch
+        android:id="@+id/timeToSm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toTopOf="@+id/savePlanter1"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spIntervals1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:entries="@array/timeInterval"
+        app:layout_constraintStart_toStartOf="@+id/inputTime1"
+        app:layout_constraintTop_toBottomOf="@+id/inputTime1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
